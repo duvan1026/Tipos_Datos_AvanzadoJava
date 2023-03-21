@@ -13,6 +13,7 @@ public class Main {
         arrayUno[4] = 5;
         */
 
+        /*
         String nombres[] = {
                 "Pepe",
                 "Juan",
@@ -26,14 +27,42 @@ public class Main {
             System.out.println("Nombre actual: " + nombre);
         }
 
-        String ultimoNombre = "";
         // 2. Forma de recorrer un array(forma larga)
         for(int i = 0; i < nombres.length; i++){
             System.out.println("Nombre : " + nombres[i] + " en posición: " + i);
-            ultimoNombre = nombres[i];
+        }
+        */
+
+        /*
+        // Forma de inicializar una array bidimensional cuando no sabemos los valores
+        int arrayBid[][] = new int[2][4];
+
+        arrayBid[0][0] = 1;
+        arrayBid[0][1] = 2;
+        arrayBid[0][2] = 3;
+        arrayBid[0][3] = 4;
+
+        arrayBid[1][0] = 10;
+        arrayBid[1][1] = 20;
+        arrayBid[1][2] = 30;
+        arrayBid[1][3] = 40;
+        */
+
+        // Forma de inicializar un array bidimensional cuandos abemos los valores
+        int arrayBid[][] = {
+                { 1,  2,  3,  4},
+                { 10, 20, 30, 40}
+        };
+
+
+        for(int i=0; i < arrayBid.length; i++){
+            for (int j=0; j < arrayBid[i].length; j++){
+                System.out.print(arrayBid[i][j]);
+            }
+            System.out.println("");
         }
 
-        System.out.println(ultimoNombre);
+
 
 
     }
