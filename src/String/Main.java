@@ -27,6 +27,12 @@ public class Main {
         }
 
 
+        boolean resultado2 = cadena.endsWith("o"); // Compara si los caracteres del string terminan con los siguientes caracteres, dato de salida boolean
+        if(resultado2){
+            System.out.println("Termina por 'o'");
+        }else {
+            System.out.println("No Termina por 'o'");
+        }
 
 
 
