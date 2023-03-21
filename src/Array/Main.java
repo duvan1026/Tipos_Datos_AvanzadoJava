@@ -13,9 +13,15 @@ public class Main {
         arrayUno[4] = 5;
         */
 
-        int arrayUno[] = {1,2,3,4,5};
+        String nombres[] = {
+                "Pepe",
+                "Juan",
+                "Francisco"
+            };
 
-        for(int i: arrayUno){
+        System.out.println("Longitud del array: " + nombres.length);
+
+        for(String i: nombres){
             System.out.println(i);
         }
 
