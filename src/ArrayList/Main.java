@@ -14,6 +14,9 @@ public class Main {
         lista.add("ElementoB");
         lista.add("ElementoC");
 
+
+
+        /* // Guardar un ArrayList en un array
         String array[] = new String[lista.size()];// setea el tamaño del array al tamaño del arraylist
 
         for(int i = 0; i < lista.size(); i++){
@@ -23,6 +26,13 @@ public class Main {
         for(String element : array){
             System.out.println(element);
         }
+
+        // Otra forma
+
+        for(Object arrayObjecto : lista.toArray()){
+            System.out.println(arrayObjecto.toString());
+        }
+        */
 
 
         /*
