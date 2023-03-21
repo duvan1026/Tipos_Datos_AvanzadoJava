@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args){
 
+        /*
         String cadena = "MENSAJE DE TEXTo";
 
         int cadenaLen = cadena.length(); // determinar el tamaño de la cadena
@@ -12,11 +13,18 @@ public class Main {
         String cadenaMinus = cadena.toLowerCase(); // convertimos cadena en minuscula;
         System.out.println("La cadena ahora es: " + cadenaMinus);
 
-        String cadenaMayus = cadena.toUpperCase(); // convertimos cadena en minuscula;
+        String cadenaMayus = cadena.toUpperCase(); // convertimos cadena en mayuscula;
         System.out.println("La cadena ahora es: " + cadenaMayus);
+        */
 
+        String cadena = "Mensaje de texto";
 
-
+        boolean resultado = cadena.startsWith("Men"); // Compara si los caracteres del string inician con los siguientes caracteres, dato de salida boolean
+        if(resultado){
+            System.out.println("Empieza por 'Men");
+        }else {
+            System.out.println("No empieza por 'Men");
+        }
 
 
     }
