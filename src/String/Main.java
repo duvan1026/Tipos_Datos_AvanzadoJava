@@ -43,8 +43,17 @@ public class Main {
 
         for(int i = 0; i < cadena.length(); i++){ // recorremos una cadena de texto
             System.out.println("caracter actual: " + cadena.charAt(i));
+        }
+
+        String cadenaInversa = "";
+
+        for(int i = cadena.length() - 1; i >= 0; i--){ // recorremos una cadena de texto
+            System.out.println("caracter actual: " + cadena.charAt(i));
+            cadenaInversa = cadenaInversa + cadena.charAt(i);
 
         }
+
+        System.out.println("La cadena invertida es: " + cadenaInversa);
 
 
 
