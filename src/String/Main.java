@@ -20,6 +20,7 @@ public class Main {
 
         String cadena = "Mensaje de texto";
 
+        /*
         boolean resultado1 = cadena.startsWith("Men"); // Compara si los caracteres del string inician con los siguientes caracteres, dato de salida boolean
         if(resultado1){
             System.out.println("Empieza por 'Men'");
@@ -37,6 +38,13 @@ public class Main {
 
         char letra = cadena.charAt(4); // obtiene el caracter ubicado en la posición seteada del string
         System.out.println("Caracter es: " + letra);
+        */
+
+
+        for(int i = 0; i < cadena.length(); i++){ // recorremos una cadena de texto
+            System.out.println("caracter actual: " + cadena.charAt(i));
+
+        }
 
 
 
