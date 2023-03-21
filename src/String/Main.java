@@ -9,8 +9,10 @@ public class Main {
         int cadenaLen = cadena.length(); // determinar el tamaño de la cadena
         System.out.println("La longitud de mi cadena es: " + cadenaLen);
 
-        String cadenaMavus = cadena.toLowerCase(); // convertimos cadena en minuscula;
-        System.out.println("La cadena ahora es: " + cadenaMavus);
+        String cadenaMinus = cadena.toLowerCase(); // convertimos cadena en minuscula;
+        System.out.println("La cadena ahora es: " + cadenaMinus);
+
+
 
 
 
