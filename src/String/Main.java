@@ -45,6 +45,9 @@ public class Main {
             System.out.println("caracter actual: " + cadena.charAt(i));
         }
 
+
+        /*********  ejecicio de cadena   ***********/
+
         String cadenaInversa = "";
 
         for(int i = cadena.length() - 1; i >= 0; i--){ // recorremos una cadena de texto
@@ -54,6 +57,8 @@ public class Main {
         }
 
         System.out.println("La cadena invertida es: " + cadenaInversa);
+
+        /********************************/
 
 
 
