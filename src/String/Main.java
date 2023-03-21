@@ -19,12 +19,15 @@ public class Main {
 
         String cadena = "Mensaje de texto";
 
-        boolean resultado = cadena.startsWith("Men"); // Compara si los caracteres del string inician con los siguientes caracteres, dato de salida boolean
-        if(resultado){
-            System.out.println("Empieza por 'Men");
+        boolean resultado1 = cadena.startsWith("Men"); // Compara si los caracteres del string inician con los siguientes caracteres, dato de salida boolean
+        if(resultado1){
+            System.out.println("Empieza por 'Men'");
         }else {
-            System.out.println("No empieza por 'Men");
+            System.out.println("No empieza por 'Men'");
         }
+
+
+
 
 
     }
