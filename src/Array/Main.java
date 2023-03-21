@@ -21,9 +21,19 @@ public class Main {
 
         System.out.println("Longitud del array: " + nombres.length);
 
-        for(String i: nombres){
-            System.out.println(i);
+        // 1. Froma de recorrer un arra(forma corta)
+        for(String nombre: nombres){ // Foreach, recorrer un array
+            System.out.println("Nombre actual: " + nombre);
         }
+
+        String ultimoNombre = "";
+        // 2. Forma de recorrer un array(forma larga)
+        for(int i = 0; i < nombres.length; i++){
+            System.out.println("Nombre : " + nombres[i] + " en posición: " + i);
+            ultimoNombre = nombres[i];
+        }
+
+        System.out.println(ultimoNombre);
 
 
     }
