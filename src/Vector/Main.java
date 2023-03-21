@@ -16,6 +16,9 @@ public class Main {
         vector.add(3);
         System.out.println("Datos del vector: " + vector);
 
+        vector.remove(2);
+        System.out.println("Datos del vector: " + vector);
+
     }
 
 }
