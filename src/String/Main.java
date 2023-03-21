@@ -12,6 +12,9 @@ public class Main {
         String cadenaMinus = cadena.toLowerCase(); // convertimos cadena en minuscula;
         System.out.println("La cadena ahora es: " + cadenaMinus);
 
+        String cadenaMayus = cadena.toUpperCase(); // convertimos cadena en minuscula;
+        System.out.println("La cadena ahora es: " + cadenaMayus);
+
 
 
 
