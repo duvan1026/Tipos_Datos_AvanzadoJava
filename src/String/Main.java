@@ -17,6 +17,7 @@ public class Main {
         System.out.println("La cadena ahora es: " + cadenaMayus);
         */
 
+
         String cadena = "Mensaje de texto";
 
         boolean resultado1 = cadena.startsWith("Men"); // Compara si los caracteres del string inician con los siguientes caracteres, dato de salida boolean
@@ -33,6 +34,9 @@ public class Main {
         }else {
             System.out.println("No Termina por 'o'");
         }
+
+        char letra = cadena.charAt(4); // obtiene el caracter ubicado en la posición seteada del string
+        System.out.println("Caracter es: " + letra);
 
 
 
