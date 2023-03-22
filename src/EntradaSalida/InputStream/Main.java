@@ -14,7 +14,7 @@ public class Main {
             byte[] datos = fichero.readAllBytes();
 
             for(byte dato: datos){// Leer un fichero
-                System.out.println(dato);
+                System.out.println((char) dato);
             }
 
         } catch ( FileNotFoundException e ){
