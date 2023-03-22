@@ -13,6 +13,10 @@ public class Main {
 
             byte[] datos = fichero.readAllBytes();
 
+            for(byte dato: datos){// Leer un fichero
+                System.out.println(dato);
+            }
+
         } catch ( FileNotFoundException e ){
             System.out.println("Error en la lectura del fichero: " + e.getClass());
         } catch( IOException e ){
