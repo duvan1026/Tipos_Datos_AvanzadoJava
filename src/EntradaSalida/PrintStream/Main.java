@@ -13,10 +13,11 @@ public class Main {
         try{
             InputStream in = new FileInputStream(urlFile);
             byte[] datos = in.readAllBytes();
-
+            in.close();
 
             PrintStream out = new PrintStream("copia.txt");
             out.write(datos);
+            out.close();
 
         }catch(Exception e){
             System.out.println("Exception:" + e.getMessage());
