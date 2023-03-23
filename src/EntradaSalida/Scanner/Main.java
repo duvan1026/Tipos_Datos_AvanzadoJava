@@ -30,6 +30,10 @@ public class Main {
                 }
             } while (!ok);
 
+            // PrintStream
+            PrintStream info = new PrintStream("copia.txt");
+            info.println("hola"); // escribe en el fichero
+
 
 
 
